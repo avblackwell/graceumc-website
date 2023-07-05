@@ -97,7 +97,7 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
+article [href^='http']:not([href*='graceumc-website.netlify.app'])::after {
   display: inline-block;
   inline-size: 1em;
   block-size: 1em;
@@ -111,6 +111,7 @@ article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
   white-space: nowrap;
   text-indent: 1em; /* the width of the icon */
 }
+
 
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {
