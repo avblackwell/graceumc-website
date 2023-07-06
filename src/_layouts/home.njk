@@ -41,21 +41,73 @@ youtube: true
   </div>
 </header> #}
 
-<header class="section region spot-color-dark" style="padding:0;">
-  <div class="section__inner region">
-    <div class="wrapper grid" style="align-items:center;" data-layout="50-50">
+<header class="section spot-color-primary">
+  <div class="section__inner">
+    <div class="wrapper region grid" style="align-items:center;" data-layout="50-50">
       <div class="flow">
         <h1>Welcome to Grace United Methodist Church</h1>
         <p>Serving Franklin, Shelbyville, Trafalgar, Greenwood, & surrounding communities</p>
-        <a href="https://www.youtube.com/@franklingraceumc9586">Hi there whats up</a>
-        <a href="https://www.youtube.com/@franklingraceumc9586">Hey</a>
+        <div class="cluster">
+          <a class="link" href="/prayer-requests/">Prayer Requests</a>
+        </div>
       </div>
-      {% youtube 'Z_HFv_6j0lI',
-      'Make Love Your Aim' %}
-      {# {% imagePlaceholder "./src/assets/images/pup.jpeg", "Grace United Methodist Church Logo"%} #}
+      <div class="flow">
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        {# {% imagePlaceholder "./src/assets/images/church.jpeg", "Grace United Methodist Church Logo"%} #}
+      </div>
     </div>
   </div>
 </header>
+
+<article class="region wrapper flow">
+  <div class="grid" data-layout="50-50">
+    <div class="flow">
+      <h2>Service Time</h2>
+      <p>Saturdays at 5:30 PM, Sundays at 9:00 AM and 11:00 AM</p>
+    </div>
+    <div class="flow">
+      <h2>Sunday School</h2>
+      <p>Sundays at 10:15 AM</p>
+    </div>
+  </div>
+  <div class="flow">
+    <h2>Current Sermon Series</h2>
+    <p>The Sunday morning services will continue to be live-streamed for those who are not ready to attend in-person.</p>
+
+    <ul class="reel" role="list">
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+    </ul>
+  </div>
+
+</article>
 
 {# <header class="section region spot-color-dark" style="padding:0;">
   <div class="section__inner region">
@@ -71,124 +123,165 @@ youtube: true
   </div>
 </header> #}
 
+{# Sermons Section #}
+{# <article class="region">
+  <div class="wrapper flow">
+    <h2>
+      <a href="/">Sermon Series</a>
+    </h2>
+    <ul class="reel" role="list">
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+      <li class="card flow">
+        <time datetime="2018-07-07">June, 7th</time>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+        <h3>Make Love Your Aim</h3>
+        <p>1 Corinthians 13</p>
+      </li>
+    </ul>
+    <p>
+      <a href="/">Previous Sermons</a>
+    </p>
+
+  </div>
+</article> #}
+
+{# Livestream Section #}
 <article class="region">
   <div class="wrapper flow">
-    <div class="flow">
-      <ul class="flow" role="list">
-        <li>
-          <h3>Service Times</h3>
-        </li>
-        <ul>
-          <li>Saturdays @ 5:30p</li>
-          <li>Sundays @ 9a & 11:00a </li>
-        </ul>
-        <li>
-          <h3>Sunday School</h3>
-        </li>
-        <ul>
-          <li>Sundays @ 10:15a</li>
-        </ul>
+    <ul class="grid" role="list" style="align-items:center;" data-layout="50-50">
+      <li class="flow">
+        <h2>Live Streaming Throughout the Week!</h2>
+        <p>Join us virtually during Service of Worship live on Sundays at 9:00 or 11:00 a.m. You can join us live on our Youtube channel or by watching to the right. If at first you don't see the live service stream, wait several minutes and refresh your browser.</p>
+        <div class="cluster">
+          <a class="link" href="/prayer-requests/">Attendance</a>
+          <a class="link" href="/prayer-requests/">Prayer Requests</a>
+        </div>
+      </li>
+      <li>
+        {% youtube 'Z_HFv_6j0lI',
+        'Make Love Your Aim' %}
+      </li>
     </ul>
-    <p>The Sunday morning services will continue to be live-streamed for those who are not ready to attend in-person.</p>
   </div>
-  <ul class="reel" role="list">
-    <li class="frame">
-      {% imagePlaceholder "./src/assets/images/pup.jpeg", "Grace United Methodist Church Logo"%}
-    </li>
-    <li class="frame">
-      {% imagePlaceholder "./src/assets/images/pup.jpeg", "Grace United Methodist Church Logo"%}
-    </li>
-    <li class="frame">
-      {% imagePlaceholder "./src/assets/images/pup.jpeg", "Grace United Methodist Church Logo"%}
-    </li>
-
-  </ul>
-</div>
 </article>
 
+{# Facebook Section #}
 <article class="region">
-<div class="wrapper flow">
-  <h2>Follow us on Facebook</h2>
-  <p>There are multiple ways to connect with us!</p>
-  <ul class="switcher" role="list">
-    <li class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi dolore id non illum molestiae quidem voluptates quisquam quam, rem maiores ut in rerum error nostrum ea ab voluptatum facere?
+  <div class="wrapper flow">
+    <h2>Follow us on Facebook</h2>
+    <p>There are multiple ways to connect with us!</p>
+    <ul class="switcher" role="list">
+      <li class="card flow">
+        <h3>
+          <a href="https://www.facebook.com/people/Grace-United-Methodist-Church-Franklin-IN/100064763888214/">Grace United Methodist Church</a>
+        </h3>
       </li>
-    <li class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi dolore id non illum molestiae quidem voluptates quisquam quam, rem maiores ut in rerum error nostrum ea ab voluptatum facere?
+      <li class="card flow">
+        <h3>
+          <a href="https://www.facebook.com/franklingraceroots/">Grace Roots Youth Ministry</a>
+        </h3>
       </li>
-    <li class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nisi dolore id non illum molestiae quidem voluptates quisquam quam, rem maiores ut in rerum error nostrum ea ab voluptatum facere?
+      <li class="card flow">
+        <h3>
+          <a href="https://www.facebook.com/allgodchildrenpreschool">All God's Children Preschool</a>
+        </h3>
       </li>
-  </ul>
-</div>
-</article>
-
-<article class="region">
-<div class="wrapper flow">
-  <ul class="grid" role="list" data-layout="50-50">
-    <li class="flow">
-      <h2>Live Streaming Throughout the Week!</h2>
-      <p>Join us virtually during Service of Worship live on Sundays at 9:00 or 11:00 a.m. You can join us live on our Youtube channel by clicking the button below. If at first you don't see the live service stream, wait several minutes and refresh your browser.</p>
-    </li>
-    <li>
-      {% youtube 'Z_HFv_6j0lI',
-      'Make Love Your Aim' %}
-    </li>
-  </ul>
-</div>
-</article>
-
-<article class="region">
-<div class="wrapper flow prose">
-  <h2>Subscribe to Our Mailing Lists</h2>
-  <div class="">
-    <div class="flow">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="">
-    </div>
-    <div class="flow">
-      <label for="fname">First Name</label>
-      <input type="text" name="fname" id="">
-    </div>
-    <div class="flow">
-      <label for="lname">Last Name</label>
-      <input type="text" name="lname" id="">
-    </div>
-
+    </ul>
   </div>
-
-  <p>Join us virtually during Service of Worship live on Sundays at 9:00 or 11:00 a.m. You can join us live on our Youtube channel by clicking the button below. If at first you don't see the live service stream, wait several minutes and refresh your browser.</p>
-
-</div>
 </article>
 
-<article class="region">
-<div class="wrapper flow prose">
-  {{ content | safe }}
-</div>
+{# Newsletter Section #}
+<article class="section spot-color-primary">
+  <div class="section__inner">
+    <div class="wrapper region flow">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form class="something" method="post">
+        <div class="">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="">
+        </div>
+        <div class="">
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="">
+        </div>
+        <div class="">
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="">
+        </div>
+        <div>
+          <div>
+            <input type="radio" id="huey" name="drone" value="huey"
+             checked>
+            <label for="huey">Huey</label>
+          </div>
+
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Dewey</label>
+          </div>
+
+          <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label>
+          </div>
+        </div>
+        <button type="submit" name="submit">Join</button>
+
+      </form>
+    </div>
+  </div>
 </article>
 
-<article class="region" style="--region-space-top: var(--space-s)">
-<div class="wrapper flow prose">
-  <h2>{{ blog.title }}</h2>
-  <!-- blog intro text is optional. -->
-  {% if blog.intro %}
-    <p>{{ blog.intro }}</p>
-  {% endif %}
-</div>
-<!-- TODO: duplicate of partials/blog.njk -->
+{# <article class="region">
+  <div class="wrapper flow prose">
+    {{ content | safe }}
+  </div>
+</article> #}
 
-<ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-  {% set postslist = collections.posts %}
-  {% for post in postslist.slice(0, 4) %}
+{# <article class="region" style="--region-space-top: var(--space-s)">
+  <div class="wrapper flow prose">
+    <h2>{{ blog.title }}</h2>
+    <!-- blog intro text is optional. -->
+    {% if blog.intro %}
+      <p>{{ blog.intro }}</p>
+    {% endif %}
+  </div>
+  <!-- TODO: duplicate of partials/blog.njk -->
 
-    <li class="card flow overflow-hidden">
-      <h3>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </h3>
-      {% set definedDate = post.date %}
-      {% include "partials/date.njk" %}
-      <p>{{ post.data.description }}</p>
-    </li>
+  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
+    {% set postslist = collections.posts %}
+    {% for post in postslist.slice(0, 4) %}
 
-  {% endfor %}
-</ul>
-</article>
+      <li class="card flow overflow-hidden">
+        <h3>
+          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </h3>
+        {% set definedDate = post.date %}
+        {% include "partials/date.njk" %}
+        <p>{{ post.data.description }}</p>
+      </li>
+
+    {% endfor %}
+  </ul>
+</article> #}
