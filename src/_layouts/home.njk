@@ -49,6 +49,7 @@ youtube: true
         <p>Serving Franklin, Shelbyville, Trafalgar, Greenwood, & surrounding communities</p>
         <div class="cluster">
           <a class="link" href="/prayer-requests/">Prayer Requests</a>
+          <a class="link" href="/prayer-requests/">Prayer Requests</a>
         </div>
       </div>
       <div class="flow">
@@ -215,40 +216,33 @@ youtube: true
 <article class="section spot-color-primary">
   <div class="section__inner">
     <div class="wrapper region flow">
-      <h2>Subscribe to Our Newsletter</h2>
-      <form class="something" method="post">
-        <div class="">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="">
+      <div class="grid" data-layout="50-50" style="align-items:center;">
+        <div class="flow">
+          <h2>Subscribe to Our Newsletter</h2>
+          <p>You can choose to receive a weekly devotion based on this week's sermon, a weekly update of what's happening at Grace UMC, or both!</p>
         </div>
-        <div class="">
-          <label for="fname">First Name</label>
-          <input type="text" name="fname" id="">
-        </div>
-        <div class="">
-          <label for="lname">Last Name</label>
-          <input type="text" name="lname" id="">
-        </div>
-        <div>
+        <form class="card flow" method="post">
           <div>
-            <input type="radio" id="huey" name="drone" value="huey"
-             checked>
-            <label for="huey">Huey</label>
+            <p>
+              <strong>Grace United Methodist Church</strong>
+            </p>
+            <div>
+              <input type="checkbox" id="dewey" name="drone" value="dewey">
+              <label for="dewey">Devotions</label>
+            </div>
+            <div>
+              <input type="checkbox" id="louie" name="drone" value="louie">
+              <label for="louie">Newsletter</label>
+            </div>
           </div>
-
           <div>
-            <input type="radio" id="dewey" name="drone" value="dewey">
-            <label for="dewey">Dewey</label>
+            <label for="email">Email</label>
+            <div class="submit"><input type="email" name="email" id="">
+              <button type="submit" name="submit">Subscribe</button>
+            </div>
           </div>
-
-          <div>
-            <input type="radio" id="louie" name="drone" value="louie">
-            <label for="louie">Louie</label>
-          </div>
-        </div>
-        <button type="submit" name="submit">Join</button>
-
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </article>
