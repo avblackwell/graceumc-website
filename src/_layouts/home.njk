@@ -61,44 +61,50 @@ youtube: true
   </div>
 </header>
 
-<article class="region wrapper flow">
-  <div class="grid" data-layout="50-50">
-    <div class="flow">
-      <h2>Service Time</h2>
-      <p>Saturdays at 5:30 PM, Sundays at 9:00 AM and 11:00 AM</p>
-    </div>
-    <div class="flow">
-      <h2>Sunday School</h2>
-      <p>Sundays at 10:15 AM</p>
-    </div>
+<article class="wrapper region grid" data-layout="50-50">
+  <div class="flow">
+    <h2>Service Time</h2>
+    <ul role="list">
+      <li>Saturdays at 5:30 PM</li>
+      <li>Sundays at 9:00 AM and 11:00 AM</li>
+    </ul>
   </div>
+  <div class="flow">
+    <h2>Sunday School</h2>
+    <ul role="list">
+      <li>Sundays at 10:15 AM</li>
+    </ul>
+  </div>
+</article>
+
+<article class="region wrapper flow">
   <div class="flow">
     <h2>Current Sermon Series</h2>
     <p>The Sunday morning services will continue to be live-streamed for those who are not ready to attend in-person.</p>
 
     <ul class="reel" role="list">
-      <li class="card flow">
+      <li class="box flow">
         <time datetime="2018-07-07">June, 7th</time>
         {% youtube 'Z_HFv_6j0lI',
         'Make Love Your Aim' %}
         <h3>Make Love Your Aim</h3>
         <p>1 Corinthians 13</p>
       </li>
-      <li class="card flow">
+      <li class="box flow">
         <time datetime="2018-07-07">June, 7th</time>
         {% youtube 'Z_HFv_6j0lI',
         'Make Love Your Aim' %}
         <h3>Make Love Your Aim</h3>
         <p>1 Corinthians 13</p>
       </li>
-      <li class="card flow">
+      <li class="box flow">
         <time datetime="2018-07-07">June, 7th</time>
         {% youtube 'Z_HFv_6j0lI',
         'Make Love Your Aim' %}
         <h3>Make Love Your Aim</h3>
         <p>1 Corinthians 13</p>
       </li>
-      <li class="card flow">
+      <li class="box flow">
         <time datetime="2018-07-07">June, 7th</time>
         {% youtube 'Z_HFv_6j0lI',
         'Make Love Your Aim' %}
@@ -221,7 +227,7 @@ youtube: true
           <h2>Subscribe to Our Newsletter</h2>
           <p>You can choose to receive a weekly devotion based on this week's sermon, a weekly update of what's happening at Grace UMC, or both!</p>
         </div>
-        <form class="card flow" method="post">
+        <form class="box flow" method="post">
           <div>
             <p>
               <strong>Grace United Methodist Church</strong>

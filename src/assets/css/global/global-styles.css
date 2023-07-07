@@ -65,7 +65,7 @@ blockquote :last-child {
 }
 
 svg {
-  block-size: 2ex;
+  block-size: 6ex;
   inline-size: auto;
   flex: none;
 }
