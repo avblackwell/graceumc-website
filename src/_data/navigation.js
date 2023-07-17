@@ -2,33 +2,33 @@ module.exports = {
   top: [
     {
       text: 'About Us',
-      url: '/about/'
+      url: '/test/'
     },
     {
       text: 'Classes & Groups',
-      url: '/get-started/'
+      url: '/test/'
     },
     {
       text: 'Missions',
-      url: '/built-with/'
+      url: '/test/'
     },
     {
       text: 'Preschool',
-      url: '/blog/'
+      url: '/test/'
     },
     {
       text: 'Give',
-      url: '/blog/'
+      url: '/test/'
     },
   ],
   bottom: [
     {
       text: 'Imprint',
-      url: '/imprint/'
+      url: '/test/'
     },
     {
       text: 'Privacy',
-      url: '/privacy/'
+      url: '/test/'
     }
   ]
 };
